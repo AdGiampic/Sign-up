@@ -20,6 +20,7 @@
     top: 8rem;
     align-items: center;
     justify-content: center;
+    /* insert calc for responsive layout */
 }
 
 #caption-bg img {
@@ -37,5 +38,8 @@
     font-size: 85px;
 }
 
-
+#form-caption {
+    font-size: 2em;
+    width: 40em;
+}
 
