@@ -1,3 +1,41 @@
-img{
-    width: 1000px;
+#main-container{
+    display: flex;
 }
+
+#main-image{
+    width: 74vh;
+}
+
+#main-image img {
+    width : 100%;
+}
+
+#caption-bg {
+    display: flex;
+    height: 180px;
+    width: 74vh;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    top: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#caption-bg img {
+    width: 8em;
+}
+
+@font-face {
+    font-family: Summer;
+    src: url(Summer-GpYG.otf)
+}
+
+#name {
+    color: antiquewhite;
+    font-family: Summer, sans-serif;
+    font-size: 85px;
+}
+
+
+
