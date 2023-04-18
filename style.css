@@ -39,7 +39,15 @@
 }
 
 #form-caption {
+    display: flex;
+    flex-direction: column;
     font-size: 2em;
     width: 40em;
+    padding-left: 35px;
+    padding-top: 2em;
+}
+
+#form {
+    display: flex;
 }
 
