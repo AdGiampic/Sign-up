@@ -38,26 +38,43 @@
     font-size: 85px;
 }
 
-#form-caption {
-    display: flex;
-    flex-direction: column;
+#form-section {
     font-size: 2em;
     width: 40em;
     padding-left: 35px;
     padding-top: 6em;
     font-weight: bold;
+    background-color: #e6e6e6;
 }
 
 #form {
     font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
 }
 
-label,input {
-    display: flex;
-    flex-direction: column;
-    margin-right: 7em;
-    margin-bottom: 5px;
+input {
+    width: 45em;
+    height: 2em;
+    margin-bottom: 15px;
+    border:1px solid #E5E7EB
 }
+
+.left {
+    margin-right: 50px;
+    margin-bottom: 35px;
+}
+
+#btn-sub {
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    height: 4em;
+    width: 18em;
+}
+
+
 
 
 
