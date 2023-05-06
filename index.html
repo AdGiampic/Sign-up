@@ -7,8 +7,12 @@
     <title>Sign-up</title>
     <link rel = "stylesheet" href="style.css">
     <script>
-        function formSub () {
-            alert("working")
+        let p1 = document.getElementById("Password").value;
+        let p2 = document.getElementById("Password2").value;
+        function matchPassword (p1,p2) {
+            if (p1 != p2) {
+                alert("Passwords not matching")
+            }
         }
     </script>
 </head>
@@ -41,13 +45,13 @@
                             <label for="last-name">Last Name</label>
                             <input type = "text" name="last-name" id="last-name" required>
                             <label for="phone">Phone Number</label>
-                            <input type="tel" name="phone" id="phone" required>
+                            <input type="tel" name="phone" id="phone" required minlength="7">
                             <label for="Password2">Confirm Password</label>
                             <input type="password" name="Password2" id="Password2" required minlength="7">
                         </div>
                     </div>
                     <div id = "btn-pos">
-                        <button type ="submit" id = "btn-sub" onclick=formSub()>Create Account</button>
+                        <button type ="submit" id = "btn-sub" onclick=matchPassword (p1,p2)>Create Account</button>
                     </div>
                 </form>
             <p id ="Account-log">Already have an account? <a href = "">Log in</a></p>
