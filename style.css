@@ -10,7 +10,7 @@ body {
 }
 
 #main-image{
-    width: 75vh;
+    width: 74vh;
 }
 
 #main-image img {
@@ -20,7 +20,7 @@ body {
 #caption-bg {
     display: flex;
     height: 180px;
-    width: 75vh;
+    width: 74vh;
     background-color: black;
     opacity: 0.3;
     position: absolute;
