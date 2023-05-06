@@ -1,3 +1,7 @@
+body {
+    background-color: #e6e6e6;
+}
+
 #main-container{
     display: flex;
 }
@@ -44,7 +48,6 @@
     padding-left: 35px;
     padding-top: 6em;
     font-weight: bold;
-    background-color: #e6e6e6;
 }
 
 #form {
@@ -52,13 +55,15 @@
     display: flex;
     justify-content: space-between;
     background-color: white;
+    padding: 1em;
 }
 
 input {
-    width: 45em;
+    width: 43em;
     height: 2em;
     margin-bottom: 15px;
-    border:1px solid #E5E7EB
+    border:1px solid #E5E7EB;
+    border-radius: 4px;
 }
 
 .left {
@@ -70,9 +75,20 @@ input {
     background-color: #596D48;
     color: white;
     font-weight: bold;
-    height: 4em;
-    width: 18em;
+    font-size: 20px;
+    height: 60px;
+    width: 14em;
+    margin-top: 30px;
+    border-radius: 12px;
 }
+
+input:focus,
+input:active {
+    border: 2px solid #3399FF;
+    outline: none;
+}
+
+
 
 
 
