@@ -20,14 +20,14 @@ body {
 #caption-bg {
     display: flex;
     height: 180px;
-    width: 74vh;
+    width: clamp(50px, 80% ,74vh);
     background-color: black;
     opacity: 0.3;
     position: absolute;
     top: 8rem;
     align-items: center;
     justify-content: center;
-    /* insert calc for responsive layout */
+    
 }
 
 #caption-bg img {
@@ -47,7 +47,7 @@ body {
 
 #form-section {
     font-size: 2em;
-    width: 40em;
+    width: clamp(850px, 80% ,40em);
     margin-left: 35px;
     padding-top: 6em;
     font-weight: bold;
