@@ -6,15 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
     <link rel = "stylesheet" href="style.css">
-    <script>
-        let p1 = document.getElementById("Password").value;
-        let p2 = document.getElementById("Password2").value;
-        function matchPassword (p1,p2) {
-            if (p1 != p2) {
-                alert("Passwords not matching")
-            }
-        }
-    </script>
 </head>
 <body>
     <div id = "main-container">
@@ -51,7 +42,7 @@
                         </div>
                     </div>
                     <div id = "btn-pos">
-                        <button type ="submit" id = "btn-sub" onclick=matchPassword (p1,p2)>Create Account</button>
+                        <button type ="submit" id = "btn-sub">Create Account</button>
                     </div>
                 </form>
             <p id ="Account-log">Already have an account? <a href = "">Log in</a></p>
